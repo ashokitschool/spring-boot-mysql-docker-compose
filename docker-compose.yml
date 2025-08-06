@@ -26,6 +26,5 @@ services:
       - MYSQL_DATABASE=test
 networks:
   docker-mysql:
-    name: docker-mysql
   
   
