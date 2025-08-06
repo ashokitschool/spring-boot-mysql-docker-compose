@@ -1,4 +1,4 @@
-version: "3.8"
+version: "3"
 
 services:
   application:
@@ -27,6 +27,5 @@ services:
 networks:
   docker-mysql:
     name: docker-mysql
-    external: true
   
   
